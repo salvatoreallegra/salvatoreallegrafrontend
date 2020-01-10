@@ -1,4 +1,4 @@
-# [React](http:www.salvatoreallegra.com/)
+# [salvatoreallegra.com](http:www.salvatoreallegra.com/)
 
 salvatoreallegra.com is a full stack portfolio website created by Salvatore Allegra.
 
@@ -8,10 +8,10 @@ salvatoreallegra.com is a full stack portfolio website created by Salvatore Alle
 
 ## Installation
 
--Clone the application
--Run NPM or NPX install on the command line to install node modules
--Run NPM start on the command line
--Navigate to localhost:3000 in your browser.
+- Clone the application
+- Run NPM or NPX install on the command line to install node modules
+- Run NPM start on the command line
+- Navigate to localhost:3000 in your browser.
 
 ## Documentation
 
