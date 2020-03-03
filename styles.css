@@ -1,34 +1,86 @@
 /* Style the navigation bar */
+
+body {
+  font-family: "Maven Pro";
+}
 .navbar {
-  width: 100%;
-  background-color: #555;
+  width: 50%;
+  background-color: red;
   overflow: auto;
 }
-
+.wrapper {
+  background-color: yellowgreen;
+  width: 500px;
+  height: 60px;
+}
+body {
+  margin-left: 40px;
+  margin-right: 40px;
+}
 /* Navbar links */
 .navbar a {
   float: left;
   text-align: center;
   padding: 12px;
-  color: white;
+  color: rgb(27, 6, 6);
   text-decoration: none;
   font-size: 17px;
 }
 
 /* Navbar links on mouse-over */
 .navbar a:hover {
-  background-color: #000;
+  background-color: white;
 }
 
 /* Current/active navbar link */
 .active {
   background-color: #4caf50;
 }
-
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) {
   .navbar a {
     float: none;
     display: block;
   }
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
 }
