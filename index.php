@@ -30,6 +30,9 @@
         <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
         <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
         <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+        <form>
+        <input type="text" name="search" placeholder="Search..">
+        </form>
       </div>
     </nav>
     
