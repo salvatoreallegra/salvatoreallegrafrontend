@@ -2,34 +2,13 @@
 
 body {
   font-family: "Maven Pro";
-}
-.navbar {
-  width: 50%;
-  background-color: red;
-  overflow: auto;
-}
-.wrapper {
-  background-color: yellowgreen;
-  width: 500px;
-  height: 60px;
-}
-body {
-  margin-left: 40px;
-  margin-right: 40px;
-}
-/* Navbar links */
-.navbar a {
-  float: left;
-  text-align: center;
-  padding: 12px;
-  color: rgb(27, 6, 6);
-  text-decoration: none;
-  font-size: 17px;
+  background-color: #403c38;
+  color: white;
 }
 
 /* Navbar links on mouse-over */
 .navbar a:hover {
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 /* Current/active navbar link */
@@ -107,4 +86,9 @@ input[type="text"]:focus {
 }
 form {
   display: inline-block;
+}
+
+footer {
+  background-color: #222222;
+  height: 500px;
 }
