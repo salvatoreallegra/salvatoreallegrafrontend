@@ -2,8 +2,10 @@ const path = require("path");
 const express = require("express");
 const router = express.Router();
 const app = express();
-app.use((req, res, next) => {
-  console.log("In middleware");
-  res.send("<h1>node app</h1>");
-});
+
+// app.get("/", function(req, res) {
+//   res.sendFile(path.join(__dirname + "/index.html"));
+// });
+
+app.use(express.static("public"));
 app.listen(3000);
