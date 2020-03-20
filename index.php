@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Dimension by HTML5 UP</title>
+		<title>Salvatore Allegra - Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -14,22 +14,23 @@
 
 				<!-- Header -->
 					<header id="header">
+					
 						<div class="logo">
 							<img class = "profilepic" src = "images/sal.jpg">
 						</div>
 						<div class="content">
 							<div class="inner">
 								<h1>Salvatore Allegra</h1>
-								<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-								for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+								<p>I am a skilled associate software developer with productive knowledge in Java, JavaScript and important related frameworks.</p>
+								<p>I bring a focus on problem solving, tenacity and good soft skills to any team of which I'm a member.</p>
 							</div>
 						</div>
 						<nav>
 							<ul>
 								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
+								<li><a href="#work">Projects</a></li>
+								<li><a href="#about">About Me</a></li>
+								<!-- <li><a href="#contact">Contact</a></li> -->
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 						</nav>
@@ -338,7 +339,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright"><a href="https://github.com/salvatoreallegra">Go straight to GitHub <i class="fab fa-github"></i></a></p>
 					</footer>
 
 			</div>
