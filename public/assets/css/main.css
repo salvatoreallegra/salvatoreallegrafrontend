@@ -110,6 +110,9 @@ section {
   display: block;
 }
 
+#salpic {
+  width: 300px;
+}
 body {
   line-height: 1;
 }
