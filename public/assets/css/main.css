@@ -1416,6 +1416,19 @@ body.is-preload #bg:before {
   background: #ffffff;
 } */
 
+.hero-project {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  color: #142633;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.7s;
+}
+.hero-project:hover {
+  background-color: magenta;
+}
+
 #header > :first-child {
   margin-top: 0;
 }
@@ -1432,9 +1445,9 @@ body.is-preload #bg:before {
   border-radius: 100%; */
 }
 
-/* #header .logo .icon:before {
+#header .logo .icon:before {
   font-size: 2rem;
-} */
+}
 
 #header .content {
   border-style: solid;
