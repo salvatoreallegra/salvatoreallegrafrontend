@@ -1,10 +1,25 @@
 class TestReact extends React.Component {
+  state = {
+    projects: []
+  };
+
+  componentDidMount() {
+    axios.get(`https://salallegrabackend.herokuapp.com/projects`).then(res => {
+      const projects = res.data;
+      this.setState({ projects });
+    });
+  }
   render() {
     return (
-      <div>
-        <h1>Test Succeed</h1>
-        <img src="https://source.unsplash.com/random" />
-      </div>
+      <ul>
+        {this.state.projects.map(projects => (
+          <div>
+            <li>
+              {projects.projectName} | {projects.projectDescription}
+            </li>
+          </div>
+        ))}
+      </ul>
     );
   }
 }
