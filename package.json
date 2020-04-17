@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "salvatoreallegrafrontend",
   "version": "0.1.0",
   "private": true,
@@ -30,5 +31,31 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "name": "salvatoreallegra.com",
+  "version": "1.0.0",
+  "description": "salvatoreallegra.com is a full stack portfolio website created by Salvatore Allegra.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salvatoreallegra/salvatoreallegra.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salvatoreallegra/salvatoreallegra.com/issues"
+  },
+  "homepage": "https://github.com/salvatoreallegra/salvatoreallegra.com#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+>>>>>>> 9902aa487ea8cc12cd38449d9d01b34b9e8b9bc3
   }
 }
